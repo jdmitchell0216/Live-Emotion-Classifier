@@ -1,3 +1,5 @@
 # Live-Emotion-Classifier
 Justin Mitchel, Kevin Zhao
-This project uses transfer learning and two labelled facial expression datasets to classify the emotion of multiple faces in a live video stream
+
+This project uses neural networks to train a model to understand 7 human emotions: anger, disgust, fear, happy, neutral, sad, surprise. This model uses transfer learning mode, VGG16, and two labeled datasets of emotions to classify what a person's emotion is given an expression. This was incorporated into the package opencv in order to be able to produce a live video feed and classification as soon as someone shows an expression on camera,
+
