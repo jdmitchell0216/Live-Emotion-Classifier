@@ -7,7 +7,7 @@ The below has currently only been tested on macbooks running Sierra to Mojave.
 
 ### Prerequisites
 All of the code is run in python 3.7.1.
-The following libraries are needed: keras, cv2, pandas, numpy, matplotlib.
+The following libraries are needed: keras, opencv-python, pandas, numpy, matplotlib.
 
 They can be installed by typing the code below into the terminal.
 
