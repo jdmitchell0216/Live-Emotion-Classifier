@@ -20,13 +20,13 @@ pip install <library name>
 
 To get the emotion classifier running, follow the steps below.
 
-Download or clone the repository. If you choose to clone, cd into your desired directory and run the line below.
+Download or clone the repository. If you choose to clone, cd into your desired directory and run the line below in terminal.
 
 ```
 git clone https://github.com/jdmitchell0216/Live-Emotion-Classifier.git
 ```
 
-While in the directory containing all of the files you just downloaded, enter the line below to start the live emotion classifier.
+While in the directory containing all of the files you just downloaded, enter the line below in terminal to start the live emotion classifier.
 
 ```
 python3 video_capture_emotion_final.py
