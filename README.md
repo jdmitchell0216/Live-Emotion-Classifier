@@ -5,8 +5,6 @@ This project uses neural networks to train a model to classify 7 human emotions:
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 All of the code is run in python 3.7.1.
 The following libraries are needed: keras, cv2, pandas, numpy, matplotlib.
@@ -19,21 +17,20 @@ pip install <library name>
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+To get the emotion classifier running, follow the steps below.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Download or clone the repository. If you choose to clone, cd into your desired directory and run the line below.
 
 ```
-until finished
+git clone https://github.com/jdmitchell0216/Live-Emotion-Classifier.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+While in the directory containing all of the files you just downloaded, enter the line below to start the live emotion classifier.
+
+```
+python3 video_capture_emotion_final.py
+```
+
 
 ## Running the tests
 
