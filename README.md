@@ -5,15 +5,16 @@ This project uses neural networks to train a model to classify 7 human emotions:
 
 ## Getting Started
 
-To get started using this 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+All of the code is run in python 3.7.1.
+The following libraries are needed: keras, cv2, pandas, numpy, matplotlib.
 
-What things you need to install the software and how to install them
+They can be installed by typing the code below into the terminal.
 
 ```
-Give examples
+pip install <library name>
 ```
 
 ### Installing
