@@ -4,6 +4,7 @@ Justin Mitchel, Kevin Zhao
 This project uses neural networks to train a model to classify 7 human emotions: anger, disgust, fear, happiness, neutral, sadness, and surprise. This model uses transfer learning with VGG16, and two labeled datasets of emotions to classify a person's emotion given one or more facial expressions. This model was utilized with OpenCV in order to produce a live video feed and emotion classification when a person's face is in shot. After recording, a time series displaying a rolling average of the happiness index of the face or crowd is created in order to evaluate audience response during video capture.
 
 ## Getting Started
+The below has currently only been tested on macbooks running Sierra to Mojave.
 
 ### Prerequisites
 All of the code is run in python 3.7.1.
@@ -33,12 +34,11 @@ python3 video_capture_emotion_final.py
 
 
 ## Running the tests
+If everything works correctly, running the .py file should bring up a video feed that displays the emotion detected for a face above the face it is predicting for. To quit the video capture, press q twice. After quitting, a happiness index numpy array and timestamped plot will be saved into the working directory. If the audience is recorded separately, the recording can be matched up with the time series plot to gauge audience sentiment.
 
-Explain how to run the automated tests for this system
+## Demonstration
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+(Add demonstration gif and happiness index tracker here)
 
 ## Built With
 
